@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Sign Up</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<style>
+		.card {background-color: #DDDDDD;}
+		.card-header {background-color: #383838 ;color: #FFFFFF;}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7">
+				<div class="card">
+			<div class="card-header">
+				SIGN UP
+			</div>
+			<div class="card-body">
+				<form method="post" action="simpan_signup.php"> 
+					<!-- Nama -->
+					<div class="form-group-row">
+					<label for="name" class="col-sm-2 col-form-label">Name</label>
+					<div class="col-sm-11">
+					<input type="text" name="name" class="form-control" id="name" placeholder="name">
+					<br>
+				</div>
+			</div>
+					<!-- Alamat -->
+					<div class="form-group-row">
+					<label for="address" class="col-sm-2 col-form-label">Address</label>
+					<div class="col-sm-11">
+					<input type="text" name="address" class="form-control" id="address" placeholder="address">
+				</div>
+					<!-- Email -->
+					<div class="form-group-row">
+					<label for="email" class="col-sm-2 col-form-label">Email</label>
+					<div class="col-sm-11">
+					<input type="text" name="email" class="form-control" id="email" placeholder="email">
+				</div>
+					<!-- Homepage -->
+					<div class="form-group-row">
+					<label for="homepage" class="col-sm-2 col-form-label">Homepage</label>
+					<div class="col-sm-11">
+					<input type="text" name="homepage" class="form-control" id="homepage" placeholder="homepage">
+				</div>
+					<!-- Username -->
+					<div class="form-group-row">
+					<label for="username" class="col-sm-3 col-form-label">Username</label>
+					<div class="col-sm-9">
+					<input type="text" name="username" class="form-control" id="username" placeholder="Masukkan Username Anda">
+					<br>
+				</div>
+			</div>
+					<!-- Password -->
+					<div class="form-group-row">
+					<label for="password" class="col-sm-3 col-form-label">Password</label>
+					<div class="col-sm-9">
+					<input type="password" name="password" class="form-control" id="password" placeholder="Masukkan Password Anda">
+				</div>
+			</div>
+				<br>
+			<div class="form-group row">
+				<div class="col-sm-11">
+					<button type="submit" name="btnSubmit"class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
